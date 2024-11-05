@@ -38,7 +38,7 @@ const App = () => {
 
         <div className="mt-8">
           <Routes>
-            <Route path="/" element={<Navigate to="/line-coding-visualizer" />} />
+            <Route path="/comp-network" element={<LineCodingVisualizer />} />
             <Route path="/line-coding-visualizer" element={<LineCodingVisualizer />} />
             <Route path="/tcp-udp" element={<TCPUDPTrafficAnalysis />} />
             <Route path="/dns-http" element={<DNSHTTPProtocolVisualizer />} />
