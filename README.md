@@ -12,7 +12,7 @@ This project is designed to serve as an educational resource for:
 
 ## 🔗 Live Demo
 
-[Check out the live demo here](#) <!-- Replace with your GitHub hosted link -->
+[Check out the live demo here](#https://shripad735.github.io/comp-network/) <!-- Replace with your GitHub hosted link -->
 
 ## 🚀 Features
 
