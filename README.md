@@ -1,152 +1,156 @@
-# 🌐 Computer Networks Visualization & Simulation Project
+# Network Visualizer 🌐
 
-Welcome to the **Computer Networks Visualization & Simulation** project! This repository contains interactive visualizations and simulations of key concepts in computer networks like **line-coding techniques**, **HTTP-DNS**, **TCP-UDP**, and more. 🎓
+An interactive educational platform for learning and visualizing computer networking concepts. This web-based tool helps students and educators understand various networking protocols, encoding techniques, and network calculations through interactive visualizations.
 
-## 🚀 Project Overview
+## 🎓 Educational Purpose
 
-This project aims to provide a visual understanding of crucial networking concepts through simulations, making it easier to grasp abstract ideas. Whether you're learning about networking or simply want to see these concepts in action, this tool is perfect for you! 🖥️
+This project is designed to serve as an educational resource for:
+- Computer networking students
+- IT beginners learning about protocols
+- Educators teaching networking concepts
+- Anyone interested in understanding network visualization
 
-## 🎯 Features
+## 🔗 Live Demo
 
-- **Line Coding Techniques** (NRZ-L, NRZ-I, Manchester, Differential Manchester, RZ)
-- **HTTP-DNS Simulation** 🕸️
-- **TCP vs UDP** 📡
-- Interactive user interface for exploring networking principles 👨‍💻
-- Dynamic visual representations to aid in learning and teaching
+[Check out the live demo here](#) <!-- Replace with your GitHub hosted link -->
 
-## 📂 Project Structure
+## 🚀 Features
 
-### 1. **Line Coding Techniques**
-   - Visualizes various line coding methods like:
-     - NRZ-L (Non-Return to Zero Level)
-     - NRZ-I (Non-Return to Zero Inverted)
-     - Manchester Encoding
-     - Differential Manchester Encoding
-     - RZ (Return to Zero)
-     
-   Each visualization demonstrates the waveform based on input data.
+### 📊 Line Coding Visualizer
+- Input binary data for visualization
+- Multiple encoding techniques supported:
+  - NRZ-L
+  - NRZ-I
+  - RZ
+  - Manchester
+  - Differential Manchester
+  - AMI
+  - Pseudoternary
+- Error detection methods:
+  - Hamming Code
+  - CRC-8
+- Interactive line chart visualization
+- Error simulation and correction demonstration
 
-### 2. **HTTP-DNS Simulation**
-   - Simulates the process of **DNS resolution** and **HTTP requests**.
-   - Learn how DNS converts a domain name to an IP address and how HTTP facilitates web communication. 🌐
+### 🔄 TCP/UDP Traffic Analysis
+- Protocol selection (TCP/UDP)
+- Application-specific simulations
+- Packet transmission visualization
+- Loss and retransmission simulation
+- Interactive learning explanations
+- Real-time traffic visualization
 
-### 3. **TCP vs UDP Simulation**
-   - Compares **Transmission Control Protocol (TCP)** and **User Datagram Protocol (UDP)**.
-   - Shows packet transmission, reliability, and connection setup.
-   - Ideal for understanding the differences between connection-oriented and connectionless protocols. ⚡
+### 🌐 DNS/HTTP Protocol Visualizer
+- Domain name input functionality
+- Support for multiple HTTP methods:
+  - GET
+  - POST
+  - PUT
+  - DELETE
+- Step-by-step DNS resolution simulation
+- HTTP request/response visualization
+- Detailed process explanations
+- Interactive bar chart displays
+
+### 🧮 Subnet Calculator
+- IP address and CIDR input
+- Comprehensive subnet calculations:
+  - Network address
+  - Broadcast address
+  - Subnet mask
+  - First/last usable hosts
+  - Total and usable host counts
+- Input validation
+- Clear results display
+
+### 🗺️ Subnet Mapper
+- Network and subnet visualization
+- Real-time traffic simulation
+- Advanced filtering and search capabilities
+- Drag-and-drop subnet management
+- Detailed subnet information:
+  - Connected devices
+  - Bandwidth usage
+  - Active services
+  - User statistics
+  - Security incidents
+  - Vulnerability reports
 
 ## 🛠️ Technologies Used
 
-- **HTML, CSS, JavaScript** for the frontend 🌟
-- **Bootstrap** for styling 🚀
-- **Canvas API** for visualizations 🎨
+- React.js
+- React Router DOM
+- Tailwind CSS
+- JavaScript (ES6+)
 
-## 🌟 Getting Started
+## 📋 Prerequisites
 
-To get a local copy of the project up and running, follow these steps:
+- Node.js (version 14.x or higher)
+- npm or yarn package manager
 
-### Prerequisites
-You just need a browser! No special tools required.
+## ⚙️ Installation
 
-### Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Shripad735/line-coding.git
-   ```
-2. Open `index.html` in your browser to view the simulations.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/network-visualizer.git
+```
 
-## 📸 Screenshots
+2. Navigate to the project directory
+```bash
+cd network-visualizer
+```
 
-| Line Coding Techniques | HTTP-DNS Simulation | TCP vs UDP |
-|------------------------|---------------------|------------|
-| ![Line Coding](screenshot1.png) | ![HTTP-DNS](screenshot2.png) | ![TCP vs UDP](screenshot3.png) |
+3. Install dependencies
+```bash
+npm install
+```
 
-## 📚 Usage
+4. Start the development server
+```bash
+npm start
+```
 
-- Open the project in a browser.
-- Navigate to different sections using the navigation bar.
-- Input data to see corresponding visualizations in **real-time**.
+The application will be available at `http://localhost:3000`
+
+## 💡 Usage
+
+1. Access the application through your web browser
+2. Use the navigation bar to switch between different tools
+3. Each tool provides interactive elements and real-time visualizations
+4. Hover over elements to see detailed explanations
+5. Use the input fields to test different scenarios
+6. Observe the visualizations to understand networking concepts
+
+## 🎯 Target Audience
+
+- Computer Science students
+- Networking beginners
+- IT educators
+- Self-learners interested in networking
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you want to improve or add new features, feel free to fork the repo and submit a pull request.
+Contributions are welcome! Please feel free to submit a Pull Request. Here's how you can contribute:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📝 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
+## 👥 Authors
 
-- **GitHub Repository:** [Click Here](https://github.com/Shripad735/line-coding)
-- **Live Demo:** [Click Here](https://shripad735.github.io/line-coding/)
+- Shripad Khandare
 
-# Getting Started with Create React App
+## 🙏 Acknowledgments
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Thanks to the React and networking community for inspiration
+- Special thanks to all contributors and testers
 
-## Available Scripts
+---
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ for the networking education community

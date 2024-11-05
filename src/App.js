@@ -3,10 +3,8 @@ import { BrowserRouter as Router, Route, Link, Routes, Navigate } from 'react-ro
 import LineCodingVisualizer from './LineCodingVisualizer';
 import TCPUDPTrafficAnalysis from './TCPUDPTrafficAnalysis';
 import DNSHTTPProtocolVisualizer from './DNSHTTPProtocolVisualizer';
-import PacketSwitchingSimulator from './PacketSwitchingSimulator';
 import SubnetCalculator from './SubnetCalculator';
 import SubnetMapper from './SubnetMapper';
-import SubnetVulnerabilityScanner from './SubnetVulnerabilityScanner';
 
 
 const App = () => {
@@ -26,10 +24,8 @@ const App = () => {
                   <Link to="/line-coding-visualizer" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Line Coding</Link>
                   <Link to="/tcp-udp" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">TCP/UDP</Link>
                   <Link to="/dns-http" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">DNS/HTTP</Link>
-                  {/* <Link to="/packet-switching-simulator" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Packet Switching Simulator</Link> */}
                   <Link to="/subnet-calculator" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Subnet Calculator</Link>
                   <Link to="/subnet-mapper" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Subnet Mapper</Link>
-                  {/* <Link to="/subnet-vulnerability-scanner" className="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Subnet Vulnerability Scanner</Link> */}
                 </div>
               </div>
             </div>
@@ -42,10 +38,8 @@ const App = () => {
             <Route path="/line-coding-visualizer" element={<LineCodingVisualizer />} />
             <Route path="/tcp-udp" element={<TCPUDPTrafficAnalysis />} />
             <Route path="/dns-http" element={<DNSHTTPProtocolVisualizer />} />
-            {/* <Route path="/packet-switching-simulator" element={<PacketSwitchingSimulator />} /> */}
             <Route path="/subnet-calculator" element={<SubnetCalculator />} />
             <Route path="/subnet-mapper" element={<SubnetMapper />} />
-            {/* <Route path="/subnet-vulnerability-scanner" element={<SubnetVulnerabilityScanner />} /> */}
           </Routes>
         </div>
       </div>
