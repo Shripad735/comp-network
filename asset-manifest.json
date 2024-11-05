@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/comp-network/static/css/main.d89e8a73.css",
+    "main.js": "/comp-network/static/js/main.de095637.js",
+    "static/js/453.ca730203.chunk.js": "/comp-network/static/js/453.ca730203.chunk.js",
+    "index.html": "/comp-network/index.html",
+    "main.d89e8a73.css.map": "/comp-network/static/css/main.d89e8a73.css.map",
+    "main.de095637.js.map": "/comp-network/static/js/main.de095637.js.map",
+    "453.ca730203.chunk.js.map": "/comp-network/static/js/453.ca730203.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d89e8a73.css",
+    "static/js/main.de095637.js"
+  ]
+}
